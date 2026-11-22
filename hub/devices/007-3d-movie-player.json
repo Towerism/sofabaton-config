@@ -1,0 +1,559 @@
+{
+  "kind": "device_backup",
+  "schema_version": 4,
+  "complete": true,
+  "payload_profile": "full_backup",
+  "device": {
+    "device_id": 7,
+    "name": "3D Movie Player",
+    "brand": "Ugoos",
+    "device_class": "ir",
+    "device_class_code": 13,
+    "idle_behavior": 1,
+    "icon": 9,
+    "sort": 7,
+    "code_type": 13,
+    "device_type": 3,
+    "code_id_hex": "e4 2d 14 18 90 16 47 4d 9a 88 9a 66 63 6e 1d ce",
+    "hide": 0,
+    "input_flag": 0,
+    "channel": 0,
+    "ip_address": null,
+    "poll_time": -1,
+    "input_mode": 2,
+    "inputs_configured": true,
+    "power_mode": 1,
+    "power_style": 1,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 0,
+    "extras": {
+      "a": 0,
+      "b": 0,
+      "c": 7
+    },
+    "color_id": 1,
+    "bt_mode": 0
+  },
+  "commands": [
+    {
+      "command_id": 1,
+      "name": "Power",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 1,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 31 36 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:116"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 2,
+      "name": "Browser",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 5807,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 35 30 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:150"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 3,
+      "name": "Delete",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 1697,
+        "data_hex": "00 1d 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 34 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:14"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 4,
+      "name": "Mouse",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 196,
+        "data_hex": "01 30 00 00 00 00 6d a8 00 00 1d c7 00 00 11 a4 00 00 02 0b 00 00 06 a6 00 00 01 fe 00 00 02 3c 00 00 01 fd 00 00 02 3c 00 00 02 0b 00 00 06 a7 00 00 02 0b 00 00 06 a6 00 00 02 0b 00 00 02 3c 00 00 02 0b 00 00 02 3c 00 00 02 0b 00 00 02 3c 00 00 02 0b 00 00 02 3b 00 00 02 0b 00 00 06 a6 00 00 02 0a 00 00 06 a5 00 00 02 0b 00 00 02 3b 00 00 02 0b 00 00 02 3b 00 00 02 0b 00 00 06 a5 00 00 02 0b 00 00 06 a5 00 00 02 0b 00 00 06 a5 00 00 02 0b 00 00 06 a5 00 00 02 02 00 00 06 a4 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 02 39 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 9b a3 00 00 22 e2 00 00 08 cb 00 00 02 0b 00 01 77 b0 00 00 22 e2 00 00 08 ca 00 00 02 0b 00 03 0d 40 00 00 00 00 00 00"
+      }
+    },
+    {
+      "command_id": 5,
+      "name": "Music",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 2512,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 37 31 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:171"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 6,
+      "name": "Play/pause",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 10104,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 36 34 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:164"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 7,
+      "name": "Search",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 517,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 32 31 37 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:217"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 8,
+      "name": "Voice",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 55,
+        "data_hex": "00 1d 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 36 35 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:65"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 9,
+      "name": "Back",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 116,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 35 38 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:158"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 10,
+      "name": "Channel down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 15881,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 34 37 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:147"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 11,
+      "name": "Channel up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 15882,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 34 36 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:146"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 12,
+      "name": "Forward",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 6982,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 36 33 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:163"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 13,
+      "name": "Home",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 1991,
+        "data_hex": "01 20 00 00 00 00 56 ea 00 00 1e 5f 00 00 11 a4 00 00 02 0b 00 00 06 a6 00 00 02 0b 00 00 02 3b 00 00 02 0b 00 00 02 3b 00 00 02 0b 00 00 06 a6 00 00 02 0b 00 00 06 a5 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 00 00 00 02 3a 00 00 02 0b 00 00 02 3a 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 02 39 00 00 02 0b 00 00 02 39 00 00 02 0b 00 00 06 a4 00 00 02 0b 00 00 06 a3 00 00 02 0b 00 00 06 a3 00 00 02 0b 00 00 02 39 00 00 02 0b 00 00 02 39 00 00 02 0b 00 00 06 a3 00 00 02 0b 00 00 06 a3 00 00 02 0b 00 00 02 38 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 02 38 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 02 37 00 00 02 0b 00 00 02 37 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 02 37 00 00 02 0b 00 00 06 a2 00 00 02 0b 00 00 02 37 00 00 02 0b 00 00 9b 9f 00 00 22 e2 00 00 08 c9 00 00 02 0b 00 03 0d 40 00 00 00 00 00 00"
+      }
+    },
+    {
+      "command_id": 14,
+      "name": "Menu",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 45,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 33 39 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:139"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 15,
+      "name": "Mute",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 106,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 31 33 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:113"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 16,
+      "name": "Navigate down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 20400,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 30 38 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:108"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 17,
+      "name": "Navigate left",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 20401,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 30 35 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:105"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 18,
+      "name": "Navigate right",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 20551,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 30 36 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:106"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 19,
+      "name": "Navigate up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 20399,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 30 33 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:103"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 20,
+      "name": "Ok",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 42,
+        "data_hex": "00 1d 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 39 37 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:97"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 21,
+      "name": "Reverse",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 466,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 36 35 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:165"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 22,
+      "name": "Volume down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 14798,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 31 34 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:114"
+          }
+        }
+      }
+    },
+    {
+      "command_id": 23,
+      "name": "Volume up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 13,
+        "button_code": 14799,
+        "data_hex": "00 1e 00 00 11 00 94 70 50 3a 4e 45 43 20 52 3a 33 38 34 30 30 20 44 3a 32 35 20 53 3a 32 33 30 20 46 3a 31 31 35 00 00 00 00",
+        "decoded": {
+          "class": "ir",
+          "trailer_hex": "00 00 00 00",
+          "fields": {
+            "descriptor": "P:NEC R:38400 D:25 S:230 F:115"
+          }
+        }
+      }
+    }
+  ],
+  "key_sort": {
+    "device_id": 7,
+    "msg_hex": ""
+  },
+  "input_record": null,
+  "button_bindings": [
+    {
+      "button_id": 174,
+      "button_name": "UP",
+      "command_id": 19,
+      "command_name": "Navigate up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 175,
+      "button_name": "LEFT",
+      "command_id": 17,
+      "command_name": "Navigate left",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 176,
+      "button_name": "OK",
+      "command_id": 20,
+      "command_name": "Ok",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 177,
+      "button_name": "RIGHT",
+      "command_id": 18,
+      "command_name": "Navigate right",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 178,
+      "button_name": "DOWN",
+      "command_id": 16,
+      "command_name": "Navigate down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 179,
+      "button_name": "BACK",
+      "command_id": 9,
+      "command_name": "Back",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 180,
+      "button_name": "HOME",
+      "command_id": 13,
+      "command_name": "Home",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 181,
+      "button_name": "MENU",
+      "command_id": 14,
+      "command_name": "Menu",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 182,
+      "button_name": "VOL_UP",
+      "command_id": 23,
+      "command_name": "Volume up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 183,
+      "button_name": "CH_UP",
+      "command_id": 11,
+      "command_name": "Channel up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 184,
+      "button_name": "MUTE",
+      "command_id": 15,
+      "command_name": "Mute",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 185,
+      "button_name": "VOL_DOWN",
+      "command_id": 22,
+      "command_name": "Volume down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 186,
+      "button_name": "CH_DOWN",
+      "command_id": 10,
+      "command_name": "Channel down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 187,
+      "button_name": "REW",
+      "command_id": 21,
+      "command_name": "Reverse",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 189,
+      "button_name": "FWD",
+      "command_id": 12,
+      "command_name": "Forward",
+      "long_press_command_id": null
+    }
+  ],
+  "macros": [
+    {
+      "button_id": 198,
+      "name": "POWER_ON",
+      "steps": [
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "POWER_Off",
+      "steps": [
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "editable": true
+}

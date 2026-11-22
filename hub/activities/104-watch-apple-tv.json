@@ -1,0 +1,484 @@
+{
+  "kind": "activity_backup",
+  "schema_version": 4,
+  "complete": true,
+  "device": {
+    "device_id": 104,
+    "name": "Watch Apple TV",
+    "brand": "Watch Apple TV",
+    "device_class": null,
+    "device_class_code": null,
+    "icon": 13,
+    "sort": 4,
+    "code_type": 0,
+    "device_type": 0,
+    "code_id_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "hide": 0,
+    "input_flag": 0,
+    "channel": 0,
+    "ip_address": null,
+    "poll_time": -1,
+    "input_mode": 0,
+    "inputs_configured": false,
+    "power_mode": 0,
+    "power_style": 0,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 0,
+    "extras": null,
+    "color_id": 3,
+    "bt_mode": 0,
+    "entity_type": "activity"
+  },
+  "button_bindings": [
+    {
+      "button_id": 156,
+      "button_name": "PLAY",
+      "device_id": 5,
+      "command_id": 30,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 159,
+      "button_name": "NUM_0",
+      "device_id": 5,
+      "command_id": 2,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 161,
+      "button_name": "NUM_9",
+      "device_id": 5,
+      "command_id": 3,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 162,
+      "button_name": "NUM_8",
+      "device_id": 5,
+      "command_id": 4,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 163,
+      "button_name": "NUM_7",
+      "device_id": 5,
+      "command_id": 5,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 164,
+      "button_name": "NUM_6",
+      "device_id": 5,
+      "command_id": 6,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 165,
+      "button_name": "NUM_5",
+      "device_id": 5,
+      "command_id": 7,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 166,
+      "button_name": "NUM_4",
+      "device_id": 5,
+      "command_id": 8,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 167,
+      "button_name": "NUM_3",
+      "device_id": 5,
+      "command_id": 9,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 168,
+      "button_name": "NUM_2",
+      "device_id": 5,
+      "command_id": 10,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 169,
+      "button_name": "NUM_1",
+      "device_id": 5,
+      "command_id": 11,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 174,
+      "button_name": "UP",
+      "device_id": 5,
+      "command_id": 44,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 175,
+      "button_name": "LEFT",
+      "device_id": 5,
+      "command_id": 43,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 176,
+      "button_name": "OK",
+      "device_id": 5,
+      "command_id": 42,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 177,
+      "button_name": "RIGHT",
+      "device_id": 5,
+      "command_id": 41,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 178,
+      "button_name": "DOWN",
+      "device_id": 5,
+      "command_id": 40,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 179,
+      "button_name": "BACK",
+      "device_id": 5,
+      "command_id": 39,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 180,
+      "button_name": "HOME",
+      "device_id": 5,
+      "command_id": 38,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 181,
+      "button_name": "MENU",
+      "device_id": 5,
+      "command_id": 37,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 182,
+      "button_name": "VOL_UP",
+      "device_id": 1,
+      "command_id": 3,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 184,
+      "button_name": "MUTE",
+      "device_id": 1,
+      "command_id": 5,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 185,
+      "button_name": "VOL_DOWN",
+      "device_id": 1,
+      "command_id": 4,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 187,
+      "button_name": "REW",
+      "device_id": 5,
+      "command_id": 33,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 188,
+      "button_name": "PAUSE",
+      "device_id": 5,
+      "command_id": 31,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 189,
+      "button_name": "FWD",
+      "device_id": 5,
+      "command_id": 32,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    }
+  ],
+  "favorite_slots": [],
+  "macros": [
+    {
+      "button_id": 1,
+      "name": "Lights Off",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 1,
+          "button_code": 2331,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 2,
+      "name": "Lights On",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 2,
+          "button_code": 8238,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 3,
+      "name": "Music",
+      "steps": [
+        {
+          "device_id": 1,
+          "command_id": 77,
+          "button_code": 14468,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 24,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 198,
+      "name": "",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 6,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 3,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 2,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 6,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 5,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 0,
+          "command_id": 255,
+          "button_code": 281474976645120,
+          "duration": 0,
+          "delay": 60
+        },
+        {
+          "device_id": 6,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "referenced_source_device_ids": [
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "favorites_order": [
+    1,
+    2,
+    3
+  ],
+  "editable": true
+}
