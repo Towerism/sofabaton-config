@@ -23,6 +23,16 @@
 
 `uv run hubconfig restore --yes-erase-hub` erases the hub and recreates every device and activity from `hub/`. Device and activity ids change, and the command exports afterwards, so commit the new ids. Run it only when the owner asks for a rebuild. Why: it deletes everything on the hub first, and nothing can undo that.
 
+## Add a network command
+
+Adding a command by editing a file and running `apply` has not been tested live; use this path, which has.
+
+1. In a short script run with `uv run python`, open `AsyncXProxy(hub_ip=...)`, await `wait_until_controllable()` and `wait_until_ready()`, then `snap = await proxy.refresh(device_id=<device id>)`. Done when the snapshot holds the device.
+2. Build the command with `NetworkCommand.http(host=..., port=..., method="GET", path=...)` and add it: `edited, command_id = edits.add_command(snap.bundle, <device id>, command, "<name>")`. Done when you have the new command id.
+3. `result = await proxy.sync_device(baseline=snap.bundle, edited=edited, device_id=<device id>, snapshot_id=snap.snapshot_id, strict=True)`. Done when `result.ok` is true.
+4. Prove it: `await proxy.send(<device id>, command_id)` and read the target device's state (see Gotchas). Done when the device changed as expected.
+5. Run `uv run hubconfig export` and commit. Done when `plan` prints "The hub matches the config."
+
 ## Gotchas
 
 - **New `wifi_ip` commands:** build the payload with `NetworkCommand.http(host=..., port=..., method="GET", path=...)` (request text, `restore_data.library_type` 28) and take its bytes and type together. The app-made commands are URL records (`library_type` 33, built by `NetworkCommand.url`). Why: URL-record bytes stored with type 28 are accepted by the hub, which then reports each press as sent while the device never gets the request.
