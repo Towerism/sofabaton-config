@@ -1079,11 +1079,131 @@
           }
         }
       }
+    },
+    {
+      "command_id": 90,
+      "name": "Vol_74",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 4d 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 37 34 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "0f",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?MV74",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 91,
+      "name": "Vol_685",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 4e 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 36 38 35 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "81",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?MV685",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 92,
+      "name": "Vol_67",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 4d 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 36 37 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "15",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?MV67",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 93,
+      "name": "Vol_64",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 4d 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 36 34 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "10",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?MV64",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 94,
+      "name": "Vol_71",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 4d 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 37 31 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "0d",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?MV71",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
     }
   ],
   "key_sort": {
     "device_id": 1,
-    "msg_hex": "01 01 02 02 03 03 04 04 05 05 06 06 07 07 08 08 09 09 0a 0a 0b 0b 0c 0c 0d 0d 0e 0e 0f 0f 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 1a 1a 1b 1b 1c 1c 1d 1d 1e 1e 1f 1f 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 2a 2a 2b 2b 2c 2c 2d 2d 2e 2e 2f 2f 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 3a 3a 3b 3b 3c 3c 3d 3d 3e 3e 3f 3f 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 49 49 4a 4a 4b 4b 4c 4c 4d 4d 4e 4e 4f 4f 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59"
+    "msg_hex": "01 01 02 02 03 03 04 04 05 05 06 06 07 07 08 08 09 09 0a 0a 0b 0b 0c 0c 0d 0d 0e 0e 0f 0f 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 1a 1a 1b 1b 1c 1c 1d 1d 1e 1e 1f 1f 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 2a 2a 2b 2b 2c 2c 2d 2d 2e 2e 2f 2f 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 3a 3a 3b 3b 3c 3c 3d 3d 3e 3e 3f 3f 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 49 49 4a 4a 4b 4b 4c 4c 4d 4d 4e 4e 4f 4f 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59 5a 5a 5b 5b 5c 5c 5d 5d 5e 5e"
   },
   "input_record": {
     "device_id": 1,
@@ -1143,27 +1263,6 @@
     ]
   },
   "button_bindings": [
-    {
-      "button_id": 151,
-      "button_name": "C",
-      "command_id": 78,
-      "command_name": "Vol_35",
-      "long_press_command_id": null
-    },
-    {
-      "button_id": 152,
-      "button_name": "B",
-      "command_id": 8,
-      "command_name": "Vol_50",
-      "long_press_command_id": null
-    },
-    {
-      "button_id": 153,
-      "button_name": "A",
-      "command_id": 80,
-      "command_name": "Vol_60",
-      "long_press_command_id": null
-    },
     {
       "button_id": 156,
       "button_name": "PLAY",
