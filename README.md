@@ -2,7 +2,7 @@
 
 This repo holds the complete configuration of my Sofabaton X2 hub as files, and a small command, `hubconfig`, that runs on a computer on the same network as the hub. It copies the hub's configuration into the files, and copies changes made in the files back to the hub. To change the hub, you edit a file and run one command, and git shows the change as a diff. To use the tool with your own X2 hub, export that hub into the files first (step 4 below). I have only run it against my own hub.
 
-Here is a real run. I renamed one of the receiver's commands in `hub/devices/001-receiver.json`. `plan` then listed that rename as the only change. Its lines start with "Writing" because they list what `apply` would write. `apply` then made the change and read the hub back into `hub/`:
+I renamed one of the receiver's commands in `hub/devices/001-receiver.json`. `plan` then listed that rename as the only change. Its lines start with "Writing" because they list what `apply` would write. `apply` then made the change and read the hub back into `hub/`:
 
 ```console
 $ uv run hubconfig plan
@@ -29,7 +29,7 @@ You need [uv](https://docs.astral.sh/uv/). It installs the right Python and the 
 |---|---|
 | `uv run hubconfig export` | Reads the whole hub into `hub/`. Run it after changing anything in the app, then commit. |
 | `uv run hubconfig plan` | Lists what `apply` would change on the hub. Writes nothing. After an `apply`, it prints "The hub matches the config." |
-| `uv run hubconfig apply` | Writes the changes in `hub/` to the hub, then exports, so the files match what the hub stored. |
+| `uv run hubconfig apply` | Writes the changes in `hub/` to the hub, then exports, so the files match what the hub stored. If the plan deletes a device or activity, it stops and asks you to run `apply --allow-delete`. |
 | `uv run hubconfig restore --yes-erase-hub` | Erases the hub and rebuilds every device and activity from `hub/`, then exports so the files get the new ids the hub assigns. If it stops partway, the hub may hold only part of its configuration; check the hub before you run it again. I have not run it against a real hub yet. |
 
 `uv run pytest` runs the tests. They include a check that the library's planner accepts the committed files.

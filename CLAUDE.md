@@ -11,7 +11,7 @@
 
 1. Edit the files under `hub/`. Done when `git diff` shows only the intended change.
 2. Run `uv run hubconfig plan`. Done when every line it prints is a change you meant, and nothing else. Why: the plan comes from the same planner `apply` runs, so an unexpected line is an unexpected write.
-3. Run `uv run hubconfig apply`. It writes the differences and then exports again. Done when it prints "Exported the hub to hub/" and a second `plan` prints "The hub matches the config."
+3. Run `uv run hubconfig apply`. It writes the differences and then exports again. If the plan deletes a device or activity, apply stops; pass `--allow-delete` only when the owner asked for that deletion. Why: a deletion loses the entry's IR codes and network commands on the hub. Done when it prints "Exported the hub to hub/" and a second `plan` prints "The hub matches the config."
 4. Commit `hub/` with a message that says what changed on the hub. Done when the commit is pushed.
 
 ## Bring the repo up to date after an app change

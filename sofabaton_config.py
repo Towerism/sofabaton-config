@@ -20,7 +20,7 @@ VOLATILE = {"captured_at", "fetched_at", "_progress_total_steps"}
 def _display_order(rows):
     # The backup lists devices by id; the hub's own order is `sort`. Keeping
     # id order would make every plan "reorder" the hub's devices.
-    return sorted(rows, key=lambda row: row["device"]["sort"])
+    return sorted(rows, key=lambda row: (row["device"]["sort"], row["device"]["device_id"]))
 
 
 def _clean(row):
@@ -53,6 +53,9 @@ def load_config(directory):
     directory = Path(directory)
     bundle = json.loads((directory / "hub.json").read_text(encoding="utf-8"))
     for kind in KINDS:
+        if not (directory / kind).is_dir():
+            # Read as "no entries", a missing folder would make apply delete them all on the hub.
+            raise SystemExit(f"{directory / kind} is missing; run export or restore the folder from git")
         rows = [json.loads(p.read_text(encoding="utf-8")) for p in (directory / kind).glob("*.json")]
         bundle[kind] = _display_order(rows)
     return bundle
@@ -82,7 +85,10 @@ async def run(args, hub=AsyncXProxy, planner=build_hub_sync_plan):
             raise SystemExit("the hub's catalogs did not become ready")
 
         if args.command == "restore":
-            result = await proxy.restore(load_config(args.config), replace=True)
+            config = load_config(args.config)
+            if not config["devices"]:
+                raise SystemExit("the config has no devices; restore would leave the hub empty")
+            result = await proxy.restore(config, replace=True)
             if not result.ok:
                 raise SystemExit(f"restore stopped at {result.failed_at}; inspect the hub before retrying")
         elif args.command in ("plan", "apply"):
@@ -95,14 +101,21 @@ async def run(args, hub=AsyncXProxy, planner=build_hub_sync_plan):
                     print(f"  {step.label}")
             if not plan.items:
                 print("The hub matches the config.")
+            for note in plan.notes:
+                print(f"Note: {note}")
             if args.command == "plan" or not plan.items:
                 return
+            if any(item.kind.startswith("remove_") for item in plan.items) and not args.allow_delete:
+                raise SystemExit("this plan deletes from the hub; check it, then run apply --allow-delete")
             result = await proxy.sync_hub(baseline=snap.bundle, desired=desired, snapshot_id=snap.snapshot_id)
             if result.status != "success":
                 raise SystemExit(f"apply stopped at {result.failed_at}: {result.message}")
 
         # Export last, so the files hold what the hub stored (and any ids it assigned).
-        write_config(await proxy.backup(), args.config)
+        bundle = await proxy.backup()
+        if not bundle.get("complete"):
+            raise SystemExit("the hub returned an incomplete backup; nothing was written, run export again")
+        write_config(bundle, args.config)
         print(f"Exported the hub to {args.config}/")
 
 
@@ -113,4 +126,5 @@ def main():
                         help="hub IP address (default: $SOFABATON_HUB)")
     parser.add_argument("--config", type=Path, default=Path("hub"), help="config directory (default: hub)")
     parser.add_argument("--yes-erase-hub", action="store_true", help="let restore erase the hub first")
+    parser.add_argument("--allow-delete", action="store_true", help="let apply delete devices or activities")
     asyncio.run(run(parser.parse_args()))

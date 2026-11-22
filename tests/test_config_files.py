@@ -1,4 +1,7 @@
 import json
+import shutil
+
+import pytest
 
 from sofabaton_config import load_config, write_config
 
@@ -84,3 +87,12 @@ def test_export_again_leaves_no_stale_files(tmp_path):
         "003-media-player.json",
     ]
     assert [d["device"]["name"] for d in load_config(tmp_path)["devices"]] == ["Denon AVR", "Media Player"]
+
+
+def test_load_refuses_a_missing_folder(tmp_path):
+    # A missing folder must not read as "the hub has no devices": apply would delete them all.
+    write_config(backup(), tmp_path)
+    shutil.rmtree(tmp_path / "devices")
+
+    with pytest.raises(SystemExit):
+        load_config(tmp_path)
