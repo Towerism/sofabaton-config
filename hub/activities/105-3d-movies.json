@@ -202,26 +202,6 @@
   ],
   "favorite_slots": [
     {
-      "button_id": 1,
-      "device_id": 1,
-      "command_id": 74
-    },
-    {
-      "button_id": 2,
-      "device_id": 1,
-      "command_id": 75
-    },
-    {
-      "button_id": 3,
-      "device_id": 1,
-      "command_id": 76
-    },
-    {
-      "button_id": 4,
-      "device_id": 1,
-      "command_id": 77
-    },
-    {
       "button_id": 7,
       "device_id": 1,
       "command_id": 88
@@ -870,15 +850,11 @@
     17,
     18,
     19,
-    1,
-    2,
-    3,
-    4,
     5,
     6,
-    8,
+    11,
     9,
-    11
+    8
   ],
   "editable": true
 }
