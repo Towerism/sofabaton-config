@@ -140,26 +140,6 @@
       "command_id": 2
     },
     {
-      "button_id": 4,
-      "device_id": 1,
-      "command_id": 74
-    },
-    {
-      "button_id": 5,
-      "device_id": 1,
-      "command_id": 75
-    },
-    {
-      "button_id": 6,
-      "device_id": 1,
-      "command_id": 76
-    },
-    {
-      "button_id": 7,
-      "device_id": 1,
-      "command_id": 77
-    },
-    {
       "button_id": 8,
       "device_id": 1,
       "command_id": 88
@@ -602,13 +582,9 @@
     11,
     18,
     1,
-    2,
+    12,
     3,
-    4,
-    5,
-    6,
-    7,
-    12
+    2
   ],
   "editable": true
 }
