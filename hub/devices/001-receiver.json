@@ -1,0 +1,1324 @@
+{
+  "kind": "device_backup",
+  "schema_version": 4,
+  "complete": true,
+  "payload_profile": "full_backup",
+  "device": {
+    "device_id": 1,
+    "name": "Receiver",
+    "brand": "Denon-AVR-X3800H",
+    "device_class": "wifi_ip",
+    "device_class_code": 28,
+    "idle_behavior": 1,
+    "icon": 11,
+    "sort": 1,
+    "code_type": 28,
+    "device_type": 16,
+    "code_id_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "hide": 0,
+    "input_flag": 2,
+    "channel": 0,
+    "ip_address": "192.168.0.74",
+    "poll_time": -1,
+    "input_mode": 1,
+    "inputs_configured": true,
+    "power_mode": 1,
+    "power_style": 0,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 0,
+    "extras": {
+      "a": 0,
+      "b": 0,
+      "c": 7
+    },
+    "color_id": 5,
+    "bt_mode": 0
+  },
+  "commands": [
+    {
+      "command_id": 1,
+      "name": "Power On",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 17 13",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 57 4f 4e 00 00",
+        "persist_tail_hex": "3f"
+      }
+    },
+    {
+      "command_id": 2,
+      "name": "Power Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 17 18",
+        "data_hex": "00 45 00 41 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 57 53 54 41 4e 44 42 59 00 00",
+        "persist_tail_hex": "24"
+      }
+    },
+    {
+      "command_id": 3,
+      "name": "Volume Up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 02 00",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 55 50 00 00",
+        "persist_tail_hex": "8e"
+      }
+    },
+    {
+      "command_id": 4,
+      "name": "Volume Down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 6f",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 44 4f 57 4e 00 00",
+        "persist_tail_hex": "65"
+      }
+    },
+    {
+      "command_id": 5,
+      "name": "Mute",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 04 62",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 55 4f 4e 00 00",
+        "persist_tail_hex": "27"
+      }
+    },
+    {
+      "command_id": 6,
+      "name": "Mute_Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 04 63",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 55 4f 46 46 00 00",
+        "persist_tail_hex": "e2"
+      }
+    },
+    {
+      "command_id": 7,
+      "name": "Vol_20",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 13 88",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 32 30 00 00",
+        "persist_tail_hex": "79"
+      }
+    },
+    {
+      "command_id": 8,
+      "name": "Vol_50",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 17 1e",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 35 30 00 00",
+        "persist_tail_hex": "19"
+      }
+    },
+    {
+      "command_id": 9,
+      "name": "Vol_80",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 17 59",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 38 30 00 00",
+        "persist_tail_hex": "5a"
+      }
+    },
+    {
+      "command_id": 10,
+      "name": "Network (HEOS)",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 02 63",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 4e 45 54 00 00",
+        "persist_tail_hex": "5b"
+      }
+    },
+    {
+      "command_id": 11,
+      "name": "Bluetooth",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 03 d1",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 42 54 00 00",
+        "persist_tail_hex": "a3"
+      }
+    },
+    {
+      "command_id": 12,
+      "name": "TV Audio",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 03 78",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 54 56 00 00",
+        "persist_tail_hex": "64"
+      }
+    },
+    {
+      "command_id": 13,
+      "name": "Blu-ray",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 03 09",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 42 44 00 00",
+        "persist_tail_hex": "b1"
+      }
+    },
+    {
+      "command_id": 14,
+      "name": "DVD",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 01 4d",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 44 56 44 00 00",
+        "persist_tail_hex": "8f"
+      }
+    },
+    {
+      "command_id": 15,
+      "name": "CD Player",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 02 0a",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 43 44 00 00",
+        "persist_tail_hex": "2a"
+      }
+    },
+    {
+      "command_id": 16,
+      "name": "CBL/SAT",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 04 bc",
+        "data_hex": "00 45 00 41 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 53 41 54 2f 43 42 4c 00 00",
+        "persist_tail_hex": "1d"
+      }
+    },
+    {
+      "command_id": 17,
+      "name": "Game",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 04 bd",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 47 41 4d 45 00 00",
+        "persist_tail_hex": "dc"
+      }
+    },
+    {
+      "command_id": 18,
+      "name": "Aux Input",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 05 86",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 41 55 58 31 00 00",
+        "persist_tail_hex": "8f"
+      }
+    },
+    {
+      "command_id": 19,
+      "name": "Phono",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 05 eb",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 50 48 4f 4e 4f 00 00",
+        "persist_tail_hex": "01"
+      }
+    },
+    {
+      "command_id": 20,
+      "name": "Tuner",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 06 b0",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 54 55 4e 45 52 00 00",
+        "persist_tail_hex": "db"
+      }
+    },
+    {
+      "command_id": 21,
+      "name": "Stereo",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 14",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 53 54 45 52 45 4f 00 00",
+        "persist_tail_hex": "ee"
+      }
+    },
+    {
+      "command_id": 22,
+      "name": "Multi Ch Stereo",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 15",
+        "data_hex": "00 4a 00 46 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 4d 43 48 25 32 30 53 54 45 52 45 4f 00 00",
+        "persist_tail_hex": "50"
+      }
+    },
+    {
+      "command_id": 23,
+      "name": "Direct",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 17",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 44 49 52 45 43 54 00 00",
+        "persist_tail_hex": "c3"
+      }
+    },
+    {
+      "command_id": 24,
+      "name": "Pure Direct",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 18",
+        "data_hex": "00 4b 00 47 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 50 55 52 45 25 32 30 44 49 52 45 43 54 00 00",
+        "persist_tail_hex": "51"
+      }
+    },
+    {
+      "command_id": 25,
+      "name": "Movie",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 19",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 4d 4f 56 49 45 00 00",
+        "persist_tail_hex": "2d"
+      }
+    },
+    {
+      "command_id": 26,
+      "name": "Music",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 1a",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 4d 55 53 49 43 00 00",
+        "persist_tail_hex": "30"
+      }
+    },
+    {
+      "command_id": 27,
+      "name": "Game Mode",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 1b",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 47 41 4d 45 00 00",
+        "persist_tail_hex": "e6"
+      }
+    },
+    {
+      "command_id": 28,
+      "name": "Enter/OK",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 76",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 45 4e 54 00 00",
+        "persist_tail_hex": "af"
+      }
+    },
+    {
+      "command_id": 29,
+      "name": "Back",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 78",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 52 54 4e 00 00",
+        "persist_tail_hex": "68"
+      }
+    },
+    {
+      "command_id": 30,
+      "name": "Navigate_up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 79",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 43 55 50 00 00",
+        "persist_tail_hex": "5f"
+      }
+    },
+    {
+      "command_id": 31,
+      "name": "Navigate_down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 7a",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 43 44 4e 00 00",
+        "persist_tail_hex": "20"
+      }
+    },
+    {
+      "command_id": 32,
+      "name": "Navigate_left",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 7b",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 43 4c 54 00 00",
+        "persist_tail_hex": "22"
+      }
+    },
+    {
+      "command_id": 33,
+      "name": "Navigate_right",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 7c",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 43 52 54 00 00",
+        "persist_tail_hex": "9c"
+      }
+    },
+    {
+      "command_id": 34,
+      "name": "Menu",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 07 7d",
+        "data_hex": "00 46 00 42 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 4d 45 4e 25 32 30 4f 4e 00 00",
+        "persist_tail_hex": "ab"
+      }
+    },
+    {
+      "command_id": 35,
+      "name": "Channel up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 71",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 50 41 4e 55 50 00 00",
+        "persist_tail_hex": "03"
+      }
+    },
+    {
+      "command_id": 36,
+      "name": "Channel down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 72",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 50 41 4e 44 4f 57 4e 00 00",
+        "persist_tail_hex": "6e"
+      }
+    },
+    {
+      "command_id": 37,
+      "name": "Option",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 c3 58",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 4f 50 54 00 00",
+        "persist_tail_hex": "0b"
+      }
+    },
+    {
+      "command_id": 38,
+      "name": "Info",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 c3 59",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 49 4e 46 00 00",
+        "persist_tail_hex": "09"
+      }
+    },
+    {
+      "command_id": 39,
+      "name": "Setup",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 c3 57",
+        "data_hex": "00 46 00 42 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 4e 4d 45 4e 25 32 30 4f 4e 00 00",
+        "persist_tail_hex": "bd"
+      }
+    },
+    {
+      "command_id": 40,
+      "name": "Play",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 61",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 41 00 00",
+        "persist_tail_hex": "e3"
+      }
+    },
+    {
+      "command_id": 41,
+      "name": "Pause",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 62",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 42 00 00",
+        "persist_tail_hex": "4d"
+      }
+    },
+    {
+      "command_id": 42,
+      "name": "Stop",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 63",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 43 00 00",
+        "persist_tail_hex": "f7"
+      }
+    },
+    {
+      "command_id": 43,
+      "name": "Next Track",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 64",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 44 00 00",
+        "persist_tail_hex": "07"
+      }
+    },
+    {
+      "command_id": 44,
+      "name": "Prev Track",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 65",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 45 00 00",
+        "persist_tail_hex": "07"
+      }
+    },
+    {
+      "command_id": 45,
+      "name": "Repeat One",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 66",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 48 00 00",
+        "persist_tail_hex": "fc"
+      }
+    },
+    {
+      "command_id": 46,
+      "name": "Repeat All",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 67",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 49 00 00",
+        "persist_tail_hex": "f5"
+      }
+    },
+    {
+      "command_id": 47,
+      "name": "Repeat Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 68",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 47 00 00",
+        "persist_tail_hex": "f6"
+      }
+    },
+    {
+      "command_id": 48,
+      "name": "Random On/Shuffle",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 69",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 4a 00 00",
+        "persist_tail_hex": "98"
+      }
+    },
+    {
+      "command_id": 49,
+      "name": "Random Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 ea 6a",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4e 53 39 4b 00 00",
+        "persist_tail_hex": "fc"
+      }
+    },
+    {
+      "command_id": 50,
+      "name": "Media Player",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 3c",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 4d 50 4c 41 59 00 00",
+        "persist_tail_hex": "2a"
+      }
+    },
+    {
+      "command_id": 51,
+      "name": "USB",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 3d",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 4e 45 54 00 00",
+        "persist_tail_hex": "08"
+      }
+    },
+    {
+      "command_id": 52,
+      "name": "Internet Radio",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 3e",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 49 52 41 44 49 4f 00 00",
+        "persist_tail_hex": "4e"
+      }
+    },
+    {
+      "command_id": 53,
+      "name": "AUX 1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 39",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 41 55 58 31 00 00",
+        "persist_tail_hex": "93"
+      }
+    },
+    {
+      "command_id": 54,
+      "name": "AUX 2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 3f",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 41 55 58 32 00 00",
+        "persist_tail_hex": "9b"
+      }
+    },
+    {
+      "command_id": 55,
+      "name": "Phono",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 75 3a",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 49 50 48 4f 4e 4f 00 00",
+        "persist_tail_hex": "c0"
+      }
+    },
+    {
+      "command_id": 56,
+      "name": "Zone 2 On",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 91",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 4f 4e 00 00",
+        "persist_tail_hex": "cb"
+      }
+    },
+    {
+      "command_id": 57,
+      "name": "Zone 2 Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 92",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 4f 46 46 00 00",
+        "persist_tail_hex": "6a"
+      }
+    },
+    {
+      "command_id": 58,
+      "name": "Zone 2 Vol +",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 93",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 55 50 00 00",
+        "persist_tail_hex": "94"
+      }
+    },
+    {
+      "command_id": 59,
+      "name": "Zone 2 Vol -",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 94",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 44 4f 57 4e 00 00",
+        "persist_tail_hex": "2e"
+      }
+    },
+    {
+      "command_id": 60,
+      "name": "Zone 2 Mute On",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 95",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 4d 55 4f 4e 00 00",
+        "persist_tail_hex": "30"
+      }
+    },
+    {
+      "command_id": 61,
+      "name": "Zone 2 Mute Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 96",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 4d 55 4f 46 46 00 00",
+        "persist_tail_hex": "cf"
+      }
+    },
+    {
+      "command_id": 62,
+      "name": "Zone 2 Source: Net",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 97",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 4e 45 54 00 00",
+        "persist_tail_hex": "52"
+      }
+    },
+    {
+      "command_id": 63,
+      "name": "Zone 2 Source: USB",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 98",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 55 53 42 00 00",
+        "persist_tail_hex": "19"
+      }
+    },
+    {
+      "command_id": 64,
+      "name": "Zone 2 Source: BT",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 99",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 42 54 00 00",
+        "persist_tail_hex": "70"
+      }
+    },
+    {
+      "command_id": 65,
+      "name": "Zone 2 Source: Tuner",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 5f 9a",
+        "data_hex": "00 43 00 3f 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 32 54 55 4e 45 52 00 00",
+        "persist_tail_hex": "e7"
+      }
+    },
+    {
+      "command_id": 66,
+      "name": "Main Zone On",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 27 14",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 4d 4f 4e 00 00",
+        "persist_tail_hex": "84"
+      }
+    },
+    {
+      "command_id": 67,
+      "name": "Main Zone Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 27 15",
+        "data_hex": "00 41 00 3d 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 5a 4d 4f 46 46 00 00",
+        "persist_tail_hex": "23"
+      }
+    },
+    {
+      "command_id": 68,
+      "name": "Tuner Preset +",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 71",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 50 41 4e 55 50 00 00",
+        "persist_tail_hex": "31"
+      }
+    },
+    {
+      "command_id": 69,
+      "name": "Tuner Preset -",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 72",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 50 41 4e 44 4f 57 4e 00 00",
+        "persist_tail_hex": "cb"
+      }
+    },
+    {
+      "command_id": 70,
+      "name": "Tuner Freq +",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 73",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 46 41 4e 55 50 00 00",
+        "persist_tail_hex": "44"
+      }
+    },
+    {
+      "command_id": 71,
+      "name": "Tuner Freq -",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 74",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 46 41 4e 44 4f 57 4e 00 00",
+        "persist_tail_hex": "de"
+      }
+    },
+    {
+      "command_id": 72,
+      "name": "Tuner FM",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 75",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 4d 41 4e 46 4d 00 00",
+        "persist_tail_hex": "f5"
+      }
+    },
+    {
+      "command_id": 73,
+      "name": "Tuner AM",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 11 76",
+        "data_hex": "00 42 00 3e 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 54 4d 41 4e 41 4d 00 00",
+        "persist_tail_hex": "ec"
+      }
+    },
+    {
+      "command_id": 74,
+      "name": "Quick Select 1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 38 81",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 51 55 49 43 4b 31 00 00",
+        "persist_tail_hex": "c4"
+      }
+    },
+    {
+      "command_id": 75,
+      "name": "Quick Select 2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 38 82",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 51 55 49 43 4b 32 00 00",
+        "persist_tail_hex": "c7"
+      }
+    },
+    {
+      "command_id": 76,
+      "name": "Quick Select 3",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 38 83",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 51 55 49 43 4b 33 00 00",
+        "persist_tail_hex": "ca"
+      }
+    },
+    {
+      "command_id": 77,
+      "name": "Quick Select 4",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 38 84",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 53 51 55 49 43 4b 34 00 00",
+        "persist_tail_hex": "cd"
+      }
+    },
+    {
+      "command_id": 78,
+      "name": "Vol_35",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 33 35 00 00",
+        "persist_tail_hex": "ec"
+      }
+    },
+    {
+      "command_id": 79,
+      "name": "Vol_70",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 37 30 00 00",
+        "persist_tail_hex": "eb"
+      }
+    },
+    {
+      "command_id": 80,
+      "name": "Vol_60",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 36 30 00 00",
+        "persist_tail_hex": "9a"
+      }
+    },
+    {
+      "command_id": 81,
+      "name": "Vol_65",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 40 00 3c 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 4d 56 36 35 00 00",
+        "persist_tail_hex": "a4"
+      }
+    },
+    {
+      "command_id": 82,
+      "name": "Dimmer_Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 45 00 41 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 44 49 4d 25 32 30 4f 46 46 00 00",
+        "persist_tail_hex": "b9"
+      }
+    },
+    {
+      "command_id": 83,
+      "name": "Dimmer_Dark",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 45 00 41 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 44 49 4d 25 32 30 44 41 52 00 00",
+        "persist_tail_hex": "6f"
+      }
+    },
+    {
+      "command_id": 84,
+      "name": "Preset_1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 33,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "00 44 00 40 68 74 74 70 3a 2f 2f 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 53 53 50 25 32 30 31 00 00",
+        "persist_tail_hex": "f8"
+      }
+    },
+    {
+      "command_id": 85,
+      "name": "Dirac Slot 1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 54 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 53 44 49 52 41 43 25 32 30 31 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "bc",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?PSDIRAC%201",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 86,
+      "name": "Dirac Slot 2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 54 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 53 44 49 52 41 43 25 32 30 32 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "bf",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?PSDIRAC%202",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 87,
+      "name": "Dirac Slot 3",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 54 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 50 53 44 49 52 41 43 25 32 30 33 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "c2",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?PSDIRAC%203",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 88,
+      "name": "Speaker Preset 1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 51 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 50 50 52 25 32 30 31 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "b4",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?SPPR%201",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    },
+    {
+      "command_id": 89,
+      "name": "Speaker Preset 2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 28,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "c0 a8 00 4a 1f 90 00 51 47 45 54 20 2f 67 6f 66 6f 72 6d 2f 66 6f 72 6d 69 50 68 6f 6e 65 41 70 70 44 69 72 65 63 74 2e 78 6d 6c 3f 53 50 50 52 25 32 30 32 20 48 54 54 50 2f 31 2e 31 0d 0a 48 6f 73 74 3a 31 39 32 2e 31 36 38 2e 30 2e 37 34 3a 38 30 38 30 0d 0a 0d 0a",
+        "persist_tail_hex": "b7",
+        "decoded": {
+          "class": "wifi_ip",
+          "trailer_hex": "",
+          "fields": {
+            "host": "192.168.0.74",
+            "port": 8080,
+            "method": "GET",
+            "path": "/goform/formiPhoneAppDirect.xml?SPPR%202",
+            "header": "",
+            "content_type": "",
+            "body": ""
+          }
+        }
+      }
+    }
+  ],
+  "key_sort": {
+    "device_id": 1,
+    "msg_hex": "01 01 02 02 03 03 04 04 05 05 06 06 07 07 08 08 09 09 0a 0a 0b 0b 0c 0c 0d 0d 0e 0e 0f 0f 10 10 11 11 12 12 13 13 14 14 15 15 16 16 17 17 18 18 19 19 1a 1a 1b 1b 1c 1c 1d 1d 1e 1e 1f 1f 20 20 21 21 22 22 23 23 24 24 25 25 26 26 27 27 28 28 29 29 2a 2a 2b 2b 2c 2c 2d 2d 2e 2e 2f 2f 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 3a 3a 3b 3b 3c 3c 3d 3d 3e 3e 3f 3f 40 40 41 41 42 42 43 43 44 44 45 45 46 46 47 47 48 48 49 49 4a 4a 4b 4b 4c 4c 4d 4d 4e 4e 4f 4f 50 50 51 51 52 52 53 53 54 54 55 55 56 56 57 57 58 58 59 59"
+  },
+  "input_record": {
+    "device_id": 1,
+    "source_id_byte": 1,
+    "flag_a": 0,
+    "flag_b": 0,
+    "state_byte": 0,
+    "entries": [
+      {
+        "command_id": 13,
+        "input_index": 5,
+        "fid": 777,
+        "name": "CoreELEC"
+      },
+      {
+        "command_id": 50,
+        "input_index": 1,
+        "fid": 30012,
+        "name": "Media Player"
+      },
+      {
+        "command_id": 53,
+        "input_index": 2,
+        "fid": 30009,
+        "name": "Apple TV"
+      },
+      {
+        "command_id": 54,
+        "input_index": 3,
+        "fid": 30015,
+        "name": "Nintendo Switch"
+      },
+      {
+        "command_id": 17,
+        "input_index": 4,
+        "fid": 1213,
+        "name": "PS5"
+      }
+    ],
+    "control_keys": {
+      "input_list": "00 00 00 00 00 00 00 00 00",
+      "input_up": "00 00 00 00 00 00 00 00 00",
+      "input_down": "00 00 00 00 00 00 00 00 00",
+      "input_confirm": "00 00 00 00 00 00 00 00 00"
+    },
+    "favorites": [
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00",
+      "00 00 00 00 00 00 00"
+    ]
+  },
+  "button_bindings": [
+    {
+      "button_id": 151,
+      "button_name": "C",
+      "command_id": 78,
+      "command_name": "Vol_35",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 152,
+      "button_name": "B",
+      "command_id": 8,
+      "command_name": "Vol_50",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 153,
+      "button_name": "A",
+      "command_id": 80,
+      "command_name": "Vol_60",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 156,
+      "button_name": "PLAY",
+      "command_id": 40,
+      "command_name": "Play",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 174,
+      "button_name": "UP",
+      "command_id": 30,
+      "command_name": "Navigate_up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 175,
+      "button_name": "LEFT",
+      "command_id": 32,
+      "command_name": "Navigate_left",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 176,
+      "button_name": "OK",
+      "command_id": 28,
+      "command_name": "Enter/OK",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 177,
+      "button_name": "RIGHT",
+      "command_id": 33,
+      "command_name": "Navigate_right",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 178,
+      "button_name": "DOWN",
+      "command_id": 31,
+      "command_name": "Navigate_down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 179,
+      "button_name": "BACK",
+      "command_id": 29,
+      "command_name": "Back",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 181,
+      "button_name": "MENU",
+      "command_id": 34,
+      "command_name": "Menu",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 182,
+      "button_name": "VOL_UP",
+      "command_id": 3,
+      "command_name": "Volume Up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 183,
+      "button_name": "CH_UP",
+      "command_id": 35,
+      "command_name": "Channel up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 184,
+      "button_name": "MUTE",
+      "command_id": 5,
+      "command_name": "Mute",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 185,
+      "button_name": "VOL_DOWN",
+      "command_id": 4,
+      "command_name": "Volume Down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 186,
+      "button_name": "CH_DOWN",
+      "command_id": 36,
+      "command_name": "Channel down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 188,
+      "button_name": "PAUSE",
+      "command_id": 41,
+      "command_name": "Pause",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 190,
+      "button_name": "RED",
+      "command_id": 74,
+      "command_name": "Quick Select 1",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 191,
+      "button_name": "GREEN",
+      "command_id": 75,
+      "command_name": "Quick Select 2",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 192,
+      "button_name": "YELLOW",
+      "command_id": 76,
+      "command_name": "Quick Select 3",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 193,
+      "button_name": "BLUE",
+      "command_id": 77,
+      "command_name": "Quick Select 4",
+      "long_press_command_id": null
+    }
+  ],
+  "macros": [
+    {
+      "button_id": 198,
+      "name": "POWER_ON",
+      "steps": [
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "POWER_Off",
+      "steps": [
+        {
+          "command_id": 2,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "editable": true
+}

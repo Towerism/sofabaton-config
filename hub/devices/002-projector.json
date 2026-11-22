@@ -1,0 +1,1536 @@
+{
+  "kind": "device_backup",
+  "schema_version": 4,
+  "complete": true,
+  "payload_profile": "full_backup",
+  "device": {
+    "device_id": 2,
+    "name": "Projector",
+    "brand": "Android TV",
+    "device_class": "bluetooth",
+    "device_class_code": 3,
+    "idle_behavior": 1,
+    "icon": 10,
+    "sort": 5,
+    "code_type": 3,
+    "device_type": 15,
+    "code_id_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "hide": 0,
+    "input_flag": 0,
+    "channel": 0,
+    "ip_address": null,
+    "poll_time": -1,
+    "input_mode": 2,
+    "inputs_configured": true,
+    "power_mode": 1,
+    "power_style": 0,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 0,
+    "extras": {
+      "a": 0,
+      "b": 0,
+      "c": 7
+    },
+    "color_id": 11,
+    "bt_mode": 1
+  },
+  "commands": [
+    {
+      "command_id": 1,
+      "name": "Power",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 01",
+        "data_hex": "0c 00 30",
+        "persist_tail_hex": "c0"
+      }
+    },
+    {
+      "command_id": 2,
+      "name": "E",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 0a 7a",
+        "data_hex": "07 00 08",
+        "persist_tail_hex": "4e"
+      }
+    },
+    {
+      "command_id": 3,
+      "name": "0",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 38",
+        "data_hex": "07 00 27",
+        "persist_tail_hex": "0c"
+      }
+    },
+    {
+      "command_id": 4,
+      "name": "9",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 65",
+        "data_hex": "07 00 26",
+        "persist_tail_hex": "41"
+      }
+    },
+    {
+      "command_id": 5,
+      "name": "8",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 60",
+        "data_hex": "07 00 25",
+        "persist_tail_hex": "3a"
+      }
+    },
+    {
+      "command_id": 6,
+      "name": "7",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 5b",
+        "data_hex": "07 00 24",
+        "persist_tail_hex": "33"
+      }
+    },
+    {
+      "command_id": 7,
+      "name": "6",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 56",
+        "data_hex": "07 00 23",
+        "persist_tail_hex": "2c"
+      }
+    },
+    {
+      "command_id": 8,
+      "name": "5",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 51",
+        "data_hex": "07 00 22",
+        "persist_tail_hex": "25"
+      }
+    },
+    {
+      "command_id": 9,
+      "name": "4",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 4c",
+        "data_hex": "07 00 21",
+        "persist_tail_hex": "1e"
+      }
+    },
+    {
+      "command_id": 10,
+      "name": "3",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 47",
+        "data_hex": "07 00 20",
+        "persist_tail_hex": "17"
+      }
+    },
+    {
+      "command_id": 11,
+      "name": "2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 42",
+        "data_hex": "07 00 1f",
+        "persist_tail_hex": "10"
+      }
+    },
+    {
+      "command_id": 12,
+      "name": "1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 3d",
+        "data_hex": "07 00 1e",
+        "persist_tail_hex": "09"
+      }
+    },
+    {
+      "command_id": 13,
+      "name": "Record",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 9c",
+        "data_hex": "07 00 82",
+        "persist_tail_hex": "fa"
+      }
+    },
+    {
+      "command_id": 14,
+      "name": "Stop",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 a1",
+        "data_hex": "0c 00 b7",
+        "persist_tail_hex": "80"
+      }
+    },
+    {
+      "command_id": 15,
+      "name": "Play/pause",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 27 78",
+        "data_hex": "0c 00 cd",
+        "persist_tail_hex": "d1"
+      }
+    },
+    {
+      "command_id": 16,
+      "name": "Volumedown",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 33 62",
+        "data_hex": "0c 00 ea",
+        "persist_tail_hex": "31"
+      }
+    },
+    {
+      "command_id": 17,
+      "name": "Volumeup",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 33 61",
+        "data_hex": "0c 00 e9",
+        "persist_tail_hex": "5c"
+      }
+    },
+    {
+      "command_id": 18,
+      "name": "Homepage",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 88",
+        "data_hex": "0c 02 23",
+        "persist_tail_hex": "55"
+      }
+    },
+    {
+      "command_id": 19,
+      "name": "Home1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e b9",
+        "data_hex": "07 00 4a",
+        "persist_tail_hex": "78"
+      }
+    },
+    {
+      "command_id": 20,
+      "name": "Return",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 18 99",
+        "data_hex": "07 00 9e",
+        "persist_tail_hex": "4c"
+      }
+    },
+    {
+      "command_id": 21,
+      "name": "Down arrow",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e bc",
+        "data_hex": "07 00 51",
+        "persist_tail_hex": "ab"
+      }
+    },
+    {
+      "command_id": 22,
+      "name": "Arrowdown2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e c0",
+        "data_hex": "0c 00 43",
+        "persist_tail_hex": "b8"
+      }
+    },
+    {
+      "command_id": 23,
+      "name": "Right arrow",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e ba",
+        "data_hex": "07 00 4f",
+        "persist_tail_hex": "0d"
+      }
+    },
+    {
+      "command_id": 24,
+      "name": "Arrowright2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e c2",
+        "data_hex": "0c 00 45",
+        "persist_tail_hex": "22"
+      }
+    },
+    {
+      "command_id": 25,
+      "name": "Left arrow",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e bb",
+        "data_hex": "07 00 50",
+        "persist_tail_hex": "9c"
+      }
+    },
+    {
+      "command_id": 26,
+      "name": "Arrowleft2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e c1",
+        "data_hex": "0c 00 44",
+        "persist_tail_hex": "ad"
+      }
+    },
+    {
+      "command_id": 27,
+      "name": "Up arrow",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e bd",
+        "data_hex": "07 00 52",
+        "persist_tail_hex": "da"
+      }
+    },
+    {
+      "command_id": 28,
+      "name": "Arrowup2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e bf",
+        "data_hex": "0c 00 42",
+        "persist_tail_hex": "e3"
+      }
+    },
+    {
+      "command_id": 29,
+      "name": "Sleep",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 16",
+        "data_hex": "0c 00 32",
+        "persist_tail_hex": "c3"
+      }
+    },
+    {
+      "command_id": 30,
+      "name": "W",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 43",
+        "data_hex": "07 00 1a",
+        "persist_tail_hex": "32"
+      }
+    },
+    {
+      "command_id": 31,
+      "name": "X",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 44",
+        "data_hex": "07 00 1b",
+        "persist_tail_hex": "35"
+      }
+    },
+    {
+      "command_id": 32,
+      "name": "Z",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 45",
+        "data_hex": "07 00 1d",
+        "persist_tail_hex": "3a"
+      }
+    },
+    {
+      "command_id": 33,
+      "name": "Clear",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 50",
+        "data_hex": "07 00 9c",
+        "persist_tail_hex": "51"
+      }
+    },
+    {
+      "command_id": 34,
+      "name": "Q",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 b3",
+        "data_hex": "07 00 14",
+        "persist_tail_hex": "96"
+      }
+    },
+    {
+      "command_id": 35,
+      "name": "Tv",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 ba",
+        "data_hex": "07 01 70",
+        "persist_tail_hex": "73"
+      }
+    },
+    {
+      "command_id": 36,
+      "name": "Apps",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 bf",
+        "data_hex": "07 00 c8",
+        "persist_tail_hex": "99"
+      }
+    },
+    {
+      "command_id": 37,
+      "name": "Pageup",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 c5",
+        "data_hex": "07 00 4b",
+        "persist_tail_hex": "f0"
+      }
+    },
+    {
+      "command_id": 38,
+      "name": "Pagedown",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 c6",
+        "data_hex": "07 00 4e",
+        "persist_tail_hex": "c7"
+      }
+    },
+    {
+      "command_id": 39,
+      "name": "P",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 d0",
+        "data_hex": "07 00 13",
+        "persist_tail_hex": "b1"
+      }
+    },
+    {
+      "command_id": 40,
+      "name": "Radio",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 f1",
+        "data_hex": "07 00 c5",
+        "persist_tail_hex": "23"
+      }
+    },
+    {
+      "command_id": 41,
+      "name": "Search",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 05",
+        "data_hex": "07 00 c7",
+        "persist_tail_hex": "a1"
+      }
+    },
+    {
+      "command_id": 42,
+      "name": "i",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 49",
+        "data_hex": "07 00 0c",
+        "persist_tail_hex": "3d"
+      }
+    },
+    {
+      "command_id": 43,
+      "name": "Previoustrack",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 71",
+        "data_hex": "0c 00 b6",
+        "persist_tail_hex": "1d"
+      }
+    },
+    {
+      "command_id": 44,
+      "name": "F4",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 a0",
+        "data_hex": "07 00 3d",
+        "persist_tail_hex": "d6"
+      }
+    },
+    {
+      "command_id": 45,
+      "name": "F1",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 a5",
+        "data_hex": "07 00 3a",
+        "persist_tail_hex": "d5"
+      }
+    },
+    {
+      "command_id": 46,
+      "name": "F3",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 aa",
+        "data_hex": "07 00 3c",
+        "persist_tail_hex": "de"
+      }
+    },
+    {
+      "command_id": 47,
+      "name": "F2",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 02 b9",
+        "data_hex": "07 00 3b",
+        "persist_tail_hex": "eb"
+      }
+    },
+    {
+      "command_id": 48,
+      "name": "Help",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 03 18",
+        "data_hex": "07 00 75",
+        "persist_tail_hex": "96"
+      }
+    },
+    {
+      "command_id": 49,
+      "name": "Tab",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 04 d0",
+        "data_hex": "07 00 2b",
+        "persist_tail_hex": "93"
+      }
+    },
+    {
+      "command_id": 50,
+      "name": "Enter",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 57",
+        "data_hex": "07 00 58",
+        "persist_tail_hex": "2f"
+      }
+    },
+    {
+      "command_id": 51,
+      "name": "F5",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 75",
+        "data_hex": "07 00 3e",
+        "persist_tail_hex": "b0"
+      }
+    },
+    {
+      "command_id": 52,
+      "name": "F6",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 7a",
+        "data_hex": "07 00 3f",
+        "persist_tail_hex": "b7"
+      }
+    },
+    {
+      "command_id": 53,
+      "name": "F7",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 7f",
+        "data_hex": "07 00 40",
+        "persist_tail_hex": "be"
+      }
+    },
+    {
+      "command_id": 54,
+      "name": "F8",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 84",
+        "data_hex": "07 00 41",
+        "persist_tail_hex": "c5"
+      }
+    },
+    {
+      "command_id": 55,
+      "name": "F9",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 89",
+        "data_hex": "07 00 42",
+        "persist_tail_hex": "cc"
+      }
+    },
+    {
+      "command_id": 56,
+      "name": "F10",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 8e",
+        "data_hex": "07 00 43",
+        "persist_tail_hex": "fa"
+      }
+    },
+    {
+      "command_id": 57,
+      "name": "F11",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 05 93",
+        "data_hex": "07 00 44",
+        "persist_tail_hex": "01"
+      }
+    },
+    {
+      "command_id": 58,
+      "name": "F",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 06 1d",
+        "data_hex": "07 00 09",
+        "persist_tail_hex": "ef"
+      }
+    },
+    {
+      "command_id": 59,
+      "name": "S",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 06 dc",
+        "data_hex": "07 00 16",
+        "persist_tail_hex": "c8"
+      }
+    },
+    {
+      "command_id": 60,
+      "name": "A",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 09 08",
+        "data_hex": "07 00 04",
+        "persist_tail_hex": "d3"
+      }
+    },
+    {
+      "command_id": 61,
+      "name": "B",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 09 0d",
+        "data_hex": "07 00 05",
+        "persist_tail_hex": "da"
+      }
+    },
+    {
+      "command_id": 62,
+      "name": "C",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 09 12",
+        "data_hex": "07 00 06",
+        "persist_tail_hex": "e1"
+      }
+    },
+    {
+      "command_id": 63,
+      "name": "D",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 09 17",
+        "data_hex": "07 00 07",
+        "persist_tail_hex": "e8"
+      }
+    },
+    {
+      "command_id": 64,
+      "name": "M",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 09 62",
+        "data_hex": "07 00 10",
+        "persist_tail_hex": "45"
+      }
+    },
+    {
+      "command_id": 65,
+      "name": "F12",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 0a ca",
+        "data_hex": "07 00 45",
+        "persist_tail_hex": "3f"
+      }
+    },
+    {
+      "command_id": 66,
+      "name": "Backspace",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 0b a6",
+        "data_hex": "07 00 2a",
+        "persist_tail_hex": "d5"
+      }
+    },
+    {
+      "command_id": 67,
+      "name": "Cancel",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 0d 2c",
+        "data_hex": "07 00 9b",
+        "persist_tail_hex": "97"
+      }
+    },
+    {
+      "command_id": 68,
+      "name": "Netflix",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 0d 36",
+        "data_hex": "07 00 cb",
+        "persist_tail_hex": "65"
+      }
+    },
+    {
+      "command_id": 69,
+      "name": "R",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 10 7e",
+        "data_hex": "07 00 15",
+        "persist_tail_hex": "72"
+      }
+    },
+    {
+      "command_id": 70,
+      "name": "Y",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 10 83",
+        "data_hex": "07 00 1c",
+        "persist_tail_hex": "85"
+      }
+    },
+    {
+      "command_id": 71,
+      "name": "G",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 10 88",
+        "data_hex": "07 00 0a",
+        "persist_tail_hex": "66"
+      }
+    },
+    {
+      "command_id": 72,
+      "name": "L",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 11 c3",
+        "data_hex": "07 00 0f",
+        "persist_tail_hex": "ac"
+      }
+    },
+    {
+      "command_id": 73,
+      "name": "Select",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 21 54",
+        "data_hex": "07 00 77",
+        "persist_tail_hex": "c9"
+      }
+    },
+    {
+      "command_id": 74,
+      "name": "T",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 23 7a",
+        "data_hex": "07 00 17",
+        "persist_tail_hex": "85"
+      }
+    },
+    {
+      "command_id": 75,
+      "name": "Space",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 27 2d",
+        "data_hex": "07 00 2c",
+        "persist_tail_hex": "e9"
+      }
+    },
+    {
+      "command_id": 76,
+      "name": "V",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 27 4a",
+        "data_hex": "07 00 19",
+        "persist_tail_hex": "5d"
+      }
+    },
+    {
+      "command_id": 77,
+      "name": "Escape",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 27 cc",
+        "data_hex": "07 00 29",
+        "persist_tail_hex": "ea"
+      }
+    },
+    {
+      "command_id": 78,
+      "name": "App",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 27 e7",
+        "data_hex": "07 00 65",
+        "persist_tail_hex": "11"
+      }
+    },
+    {
+      "command_id": 79,
+      "name": "Nexttrack",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 32 0a",
+        "data_hex": "0c 00 b5",
+        "persist_tail_hex": "27"
+      }
+    },
+    {
+      "command_id": 80,
+      "name": "Execute",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 34 a2",
+        "data_hex": "07 00 74",
+        "persist_tail_hex": "9a"
+      }
+    },
+    {
+      "command_id": 81,
+      "name": "H",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 15",
+        "data_hex": "07 00 0b",
+        "persist_tail_hex": "23"
+      }
+    },
+    {
+      "command_id": 82,
+      "name": "J",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 16",
+        "data_hex": "07 00 0d",
+        "persist_tail_hex": "28"
+      }
+    },
+    {
+      "command_id": 83,
+      "name": "K",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 17",
+        "data_hex": "07 00 0e",
+        "persist_tail_hex": "2b"
+      }
+    },
+    {
+      "command_id": 84,
+      "name": "N",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 18",
+        "data_hex": "07 00 11",
+        "persist_tail_hex": "32"
+      }
+    },
+    {
+      "command_id": 85,
+      "name": "O",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 19",
+        "data_hex": "07 00 12",
+        "persist_tail_hex": "35"
+      }
+    },
+    {
+      "command_id": 86,
+      "name": "U",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e 1a",
+        "data_hex": "07 00 18",
+        "persist_tail_hex": "42"
+      }
+    },
+    {
+      "command_id": 87,
+      "name": "Nvoice",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e b6",
+        "data_hex": "0c 02 21",
+        "persist_tail_hex": "fd"
+      }
+    },
+    {
+      "command_id": 88,
+      "name": "Mvioce",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e b7",
+        "data_hex": "07 00 3e",
+        "persist_tail_hex": "13"
+      }
+    },
+    {
+      "command_id": 89,
+      "name": "Exsel",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e be",
+        "data_hex": "07 00 a4",
+        "persist_tail_hex": "1e"
+      }
+    },
+    {
+      "command_id": 90,
+      "name": "Channel_up(166)",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e c3",
+        "data_hex": "0c 01 66",
+        "persist_tail_hex": "d5"
+      }
+    },
+    {
+      "command_id": 91,
+      "name": "Channel_down(167)",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 3e c4",
+        "data_hex": "0c 01 67",
+        "persist_tail_hex": "ab"
+      }
+    },
+    {
+      "command_id": 92,
+      "name": "Disney",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 58 64",
+        "data_hex": "07 00 c9",
+        "persist_tail_hex": "6e"
+      }
+    },
+    {
+      "command_id": 93,
+      "name": "Play",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 92",
+        "data_hex": "0c 00 b0",
+        "persist_tail_hex": "5a"
+      }
+    },
+    {
+      "command_id": 94,
+      "name": "Pause",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 a6",
+        "data_hex": "0c 00 cd",
+        "persist_tail_hex": "f3"
+      }
+    },
+    {
+      "command_id": 95,
+      "name": "Guide",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 4b",
+        "data_hex": "07 00 c6",
+        "persist_tail_hex": "7d"
+      }
+    },
+    {
+      "command_id": 96,
+      "name": "Blue",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 f1",
+        "data_hex": "07 00 ba",
+        "persist_tail_hex": "b0"
+      }
+    },
+    {
+      "command_id": 97,
+      "name": "Yellow",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 f6",
+        "data_hex": "07 00 b9",
+        "persist_tail_hex": "a8"
+      }
+    },
+    {
+      "command_id": 98,
+      "name": "Green",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 ec",
+        "data_hex": "07 00 b8",
+        "persist_tail_hex": "12"
+      }
+    },
+    {
+      "command_id": 99,
+      "name": "Red",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 e7",
+        "data_hex": "07 00 b7",
+        "persist_tail_hex": "36"
+      }
+    },
+    {
+      "command_id": 100,
+      "name": "Forward",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 1b 46",
+        "data_hex": "0c 00 b3",
+        "persist_tail_hex": "6b"
+      }
+    },
+    {
+      "command_id": 101,
+      "name": "Reverse",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 d2",
+        "data_hex": "0c 00 b4",
+        "persist_tail_hex": "e5"
+      }
+    },
+    {
+      "command_id": 102,
+      "name": "Volume_down",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 33",
+        "data_hex": "07 00 81",
+        "persist_tail_hex": "c0"
+      }
+    },
+    {
+      "command_id": 103,
+      "name": "Mute",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 6a",
+        "data_hex": "0c 00 e2",
+        "persist_tail_hex": "69"
+      }
+    },
+    {
+      "command_id": 104,
+      "name": "Volume_up",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 2e 77",
+        "data_hex": "07 00 80",
+        "persist_tail_hex": "5e"
+      }
+    },
+    {
+      "command_id": 105,
+      "name": "Menu",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 2d",
+        "data_hex": "07 00 76",
+        "persist_tail_hex": "b5"
+      }
+    },
+    {
+      "command_id": 106,
+      "name": "Home",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 07 c7",
+        "data_hex": "07 00 5f",
+        "persist_tail_hex": "33"
+      }
+    },
+    {
+      "command_id": 107,
+      "name": "Back",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 74",
+        "data_hex": "0c 02 24",
+        "persist_tail_hex": "8d"
+      }
+    },
+    {
+      "command_id": 108,
+      "name": "Arrowdown",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 15",
+        "data_hex": "07 00 51",
+        "persist_tail_hex": "a7"
+      }
+    },
+    {
+      "command_id": 109,
+      "name": "Arrowright",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 03 29",
+        "data_hex": "07 00 4f",
+        "persist_tail_hex": "21"
+      }
+    },
+    {
+      "command_id": 110,
+      "name": "Ok",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 00 2a",
+        "data_hex": "0c 00 41",
+        "persist_tail_hex": "a7"
+      }
+    },
+    {
+      "command_id": 111,
+      "name": "Arrowleft",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 03 28",
+        "data_hex": "07 00 50",
+        "persist_tail_hex": "ae"
+      }
+    },
+    {
+      "command_id": 112,
+      "name": "Arrowup",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 3,
+        "command_code": "00 00 00 00 01 13",
+        "data_hex": "07 00 52",
+        "persist_tail_hex": "d3"
+      }
+    }
+  ],
+  "key_sort": {
+    "device_id": 2,
+    "msg_hex": ""
+  },
+  "input_record": null,
+  "button_bindings": [
+    {
+      "button_id": 156,
+      "button_name": "PLAY",
+      "command_id": 93,
+      "command_name": "Play",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 157,
+      "button_name": "GUIDE",
+      "command_id": 95,
+      "command_name": "Guide",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 158,
+      "button_name": "NUM_ENTER",
+      "command_id": 2,
+      "command_name": "E",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 159,
+      "button_name": "NUM_0",
+      "command_id": 3,
+      "command_name": "0",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 161,
+      "button_name": "NUM_9",
+      "command_id": 4,
+      "command_name": "9",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 162,
+      "button_name": "NUM_8",
+      "command_id": 5,
+      "command_name": "8",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 163,
+      "button_name": "NUM_7",
+      "command_id": 6,
+      "command_name": "7",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 164,
+      "button_name": "NUM_6",
+      "command_id": 7,
+      "command_name": "6",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 165,
+      "button_name": "NUM_5",
+      "command_id": 8,
+      "command_name": "5",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 166,
+      "button_name": "NUM_4",
+      "command_id": 9,
+      "command_name": "4",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 167,
+      "button_name": "NUM_3",
+      "command_id": 10,
+      "command_name": "3",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 168,
+      "button_name": "NUM_2",
+      "command_id": 11,
+      "command_name": "2",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 169,
+      "button_name": "NUM_1",
+      "command_id": 12,
+      "command_name": "1",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 174,
+      "button_name": "UP",
+      "command_id": 112,
+      "command_name": "Arrowup",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 175,
+      "button_name": "LEFT",
+      "command_id": 111,
+      "command_name": "Arrowleft",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 176,
+      "button_name": "OK",
+      "command_id": 110,
+      "command_name": "Ok",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 177,
+      "button_name": "RIGHT",
+      "command_id": 109,
+      "command_name": "Arrowright",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 178,
+      "button_name": "DOWN",
+      "command_id": 108,
+      "command_name": "Arrowdown",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 179,
+      "button_name": "BACK",
+      "command_id": 107,
+      "command_name": "Back",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 180,
+      "button_name": "HOME",
+      "command_id": 106,
+      "command_name": "Home",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 181,
+      "button_name": "MENU",
+      "command_id": 105,
+      "command_name": "Menu",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 182,
+      "button_name": "VOL_UP",
+      "command_id": 104,
+      "command_name": "Volume_up",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 184,
+      "button_name": "MUTE",
+      "command_id": 103,
+      "command_name": "Mute",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 185,
+      "button_name": "VOL_DOWN",
+      "command_id": 102,
+      "command_name": "Volume_down",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 187,
+      "button_name": "REW",
+      "command_id": 101,
+      "command_name": "Reverse",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 188,
+      "button_name": "PAUSE",
+      "command_id": 94,
+      "command_name": "Pause",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 189,
+      "button_name": "FWD",
+      "command_id": 100,
+      "command_name": "Forward",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 190,
+      "button_name": "RED",
+      "command_id": 99,
+      "command_name": "Red",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 191,
+      "button_name": "GREEN",
+      "command_id": 98,
+      "command_name": "Green",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 192,
+      "button_name": "YELLOW",
+      "command_id": 97,
+      "command_name": "Yellow",
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 193,
+      "button_name": "BLUE",
+      "command_id": 96,
+      "command_name": "Blue",
+      "long_press_command_id": null
+    }
+  ],
+  "macros": [
+    {
+      "button_id": 198,
+      "name": "POWER_ON",
+      "steps": [
+        {
+          "command_id": 110,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "POWER_Off",
+      "steps": [
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 4
+        },
+        {
+          "command_id": 110,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "editable": true
+}

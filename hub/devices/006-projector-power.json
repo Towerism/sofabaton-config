@@ -1,0 +1,134 @@
+{
+  "kind": "device_backup",
+  "schema_version": 4,
+  "complete": true,
+  "payload_profile": "full_backup",
+  "device": {
+    "device_id": 6,
+    "name": "Projector Power",
+    "brand": "Ha",
+    "device_class": "wifi_mqtt",
+    "device_class_code": 32,
+    "idle_behavior": 1,
+    "icon": 4,
+    "sort": 6,
+    "code_type": 32,
+    "device_type": 17,
+    "code_id_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "hide": 0,
+    "input_flag": 0,
+    "channel": 0,
+    "ip_address": null,
+    "poll_time": -1,
+    "input_mode": 2,
+    "inputs_configured": true,
+    "power_mode": 1,
+    "power_style": 0,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 1,
+    "extras": {
+      "a": 0,
+      "b": 0,
+      "c": 7
+    },
+    "color_id": 0,
+    "bt_mode": 0
+  },
+  "commands": [
+    {
+      "command_id": 1,
+      "name": "Power On",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 32,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "06 01",
+        "persist_tail_hex": "19",
+        "decoded": {
+          "class": "wifi_mqtt",
+          "trailer_hex": "",
+          "fields": {
+            "device_id": 6,
+            "command_id": 1
+          }
+        }
+      }
+    },
+    {
+      "command_id": 2,
+      "name": "Power Off",
+      "restore_data": {
+        "transport": "hub_code_record",
+        "library_type": 32,
+        "command_code": "00 00 00 00 00 00",
+        "data_hex": "06 02",
+        "persist_tail_hex": "78",
+        "decoded": {
+          "class": "wifi_mqtt",
+          "trailer_hex": "",
+          "fields": {
+            "device_id": 6,
+            "command_id": 2
+          }
+        }
+      }
+    }
+  ],
+  "key_sort": {
+    "device_id": 6,
+    "msg_hex": ""
+  },
+  "input_record": null,
+  "button_bindings": [],
+  "macros": [
+    {
+      "button_id": 198,
+      "name": "POWER_ON",
+      "steps": [
+        {
+          "command_id": 2,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 2
+        },
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "POWER_Off",
+      "steps": [
+        {
+          "command_id": 1,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 30
+        },
+        {
+          "command_id": 2,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "command_id": 255,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "editable": true
+}

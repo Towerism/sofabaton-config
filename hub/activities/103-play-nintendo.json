@@ -1,0 +1,236 @@
+{
+  "kind": "activity_backup",
+  "schema_version": 4,
+  "complete": true,
+  "device": {
+    "device_id": 103,
+    "name": "Play Nintendo",
+    "brand": "Play Nintendo",
+    "device_class": null,
+    "device_class_code": null,
+    "icon": 6,
+    "sort": 3,
+    "code_type": 0,
+    "device_type": 0,
+    "code_id_hex": "00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00",
+    "hide": 0,
+    "input_flag": 0,
+    "channel": 0,
+    "ip_address": null,
+    "poll_time": -1,
+    "input_mode": 0,
+    "inputs_configured": false,
+    "power_mode": 0,
+    "power_style": 0,
+    "share_mode": 0,
+    "tail_flag": 0,
+    "tail_marker": 0,
+    "extras": null,
+    "color_id": 2,
+    "bt_mode": 0,
+    "entity_type": "activity"
+  },
+  "button_bindings": [
+    {
+      "button_id": 182,
+      "button_name": "VOL_UP",
+      "device_id": 1,
+      "command_id": 3,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 184,
+      "button_name": "MUTE",
+      "device_id": 1,
+      "command_id": 5,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    },
+    {
+      "button_id": 185,
+      "button_name": "VOL_DOWN",
+      "device_id": 1,
+      "command_id": 4,
+      "long_press_device_id": null,
+      "long_press_command_id": null
+    }
+  ],
+  "favorite_slots": [],
+  "macros": [
+    {
+      "button_id": 198,
+      "name": "",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 6,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 3,
+          "command_id": 198,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 4,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 3,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 6,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        },
+        {
+          "device_id": 3,
+          "command_id": 197,
+          "button_code": 0,
+          "duration": 0,
+          "delay": 0
+        }
+      ]
+    },
+    {
+      "button_id": 199,
+      "name": "",
+      "steps": [
+        {
+          "device_id": 4,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 3,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 4,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 2,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 0,
+          "command_id": 255,
+          "button_code": 281474976645120,
+          "duration": 0,
+          "delay": 60
+        },
+        {
+          "device_id": 6,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        },
+        {
+          "device_id": 1,
+          "command_id": 199,
+          "button_code": 0,
+          "duration": 1,
+          "delay": 0
+        }
+      ]
+    }
+  ],
+  "referenced_source_device_ids": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "editable": true
+}

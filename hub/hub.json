@@ -1,0 +1,11 @@
+{
+  "kind": "hub_bundle",
+  "schema_version": 5,
+  "complete": true,
+  "payload_profile": "full_backup",
+  "hub": {
+    "entry_id": "X1-HUB-PROXY",
+    "name": "X2 HUB",
+    "version": "X2"
+  }
+}
