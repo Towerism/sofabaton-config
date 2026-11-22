@@ -4,8 +4,8 @@
 
 ## Before any hub command
 
-1. Ask the owner to fully close the Sofabaton app on every phone and tablet. Done when they confirm. Why: the hub serves one controller at a time; with the app open, `hubconfig` stops with "hub not controllable".
-2. Make sure no other session is talking to the hub. Done when you have checked for other running sessions that use the hub. Why: two controllers fight over the one connection.
+1. Ask the owner to fully close the Sofabaton app on every phone and tablet. Done when they confirm. Why: while the app is connected to the hub, `hubconfig` can't take control and stops with "hub not controllable".
+2. Make sure no other session is talking to the hub. Done when you have checked for other running sessions that use the hub. Why: the library expects one controller at a time, and two sessions on the hub at once has not been tested.
 
 ## Change the hub from the repo
 
@@ -35,7 +35,7 @@ Adding a command by editing a file and running `apply` has not been tested live;
 
 ## Gotchas
 
-- **New `wifi_ip` commands:** build the payload with `NetworkCommand.http(host=..., port=..., method="GET", path=...)` (request text, `restore_data.library_type` 28) and take its bytes and type together. The app-made commands are URL records (`library_type` 33, built by `NetworkCommand.url`). Why: URL-record bytes stored with type 28 are accepted by the hub, which then reports each press as sent while the device never gets the request.
+- **New `wifi_ip` commands:** build the payload with `NetworkCommand.http(host=..., port=..., method="GET", path=...)` (request text, `restore_data.library_type` 28) and take its bytes and type together. The app-made commands are URL records (`library_type` 33, built by `NetworkCommand.url`). Why: URL-record bytes stored with type 28 are accepted by the hub, which then reports each press as sent while the device doesn't respond.
 - **`power_state` is left out of the files on purpose.** `desired_state()` copies the live value in before planning. Why: it changes whenever an activity runs, yet the planner compares it as part of each device record.
 - **A press that reports `sent=True` proves nothing.** Prove a command by reading the target device's state after the hub presses it. For the Denon receiver, read it over telnet (port 23, commands end in `\r`). Ask the owner before pressing commands that change what the receiver is doing. Why: someone may be using it.
 - **Denon speaker presets** (`SPPR 1`, `SPPR 2`) each keep their own Dirac Live slots (`PSDIRAC 1`–`3`). Name Dirac commands by slot number. Why: what a slot holds depends on the active speaker preset.

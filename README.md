@@ -20,8 +20,8 @@ You need [uv](https://docs.astral.sh/uv/). It installs the right Python and the 
 
 1. Clone the repo and run `uv sync`.
 2. Tell `hubconfig` where the hub is: `export SOFABATON_HUB=<your hub's IP address>` (mine is `192.168.0.59`), or pass `--hub` on each command.
-3. Fully close the Sofabaton app on every phone and tablet. The hub lets only one program control it at a time, and the app is one of them. While the app is open, `hubconfig` stops with "hub not controllable".
-4. If you are setting up your own hub, run `uv run hubconfig export` first. Export replaces the files in `hub/` with your hub's configuration. If you skip it, `apply` makes your hub match my files, and it deletes every device and activity of yours that my files don't have.
+3. Fully close the Sofabaton app on every phone and tablet. While the app is connected to the hub, `hubconfig` can't take control of it and stops with "hub not controllable".
+4. If you are setting up your own hub, run `uv run hubconfig export` first. Export replaces the files in `hub/` with your hub's configuration. If you skip it, `apply` tries to make your hub match my files. It stops before deleting any of your devices or activities unless you pass `--allow-delete`, but it can still add mine and change yours.
 
 ## Run a command
 
@@ -50,4 +50,4 @@ The **Receiver** device controls a Denon AVR-X3800H over the network. Each of it
 
 Dirac Live is the receiver's room correction. The receiver stores up to three Dirac Live results in numbered slots. It also has two speaker presets, switched with the receiver commands `SPPR 1` and `SPPR 2`, and each preset has its own set of slots. On my receiver, choosing slot 1 under preset 2 selects a Dirac Live result, while choosing slot 1 under preset 1 turns Dirac Live off. The remote's buttons are therefore named by slot number ("Dirac Slot 1" to "Dirac Slot 3").
 
-Adding a network command by editing a file and running `apply` has not been tested. The tested way is to add it with the library and then run `export`; [CLAUDE.md](CLAUDE.md) has the steps and the reason the stored format matters. The hub accepts a command stored in the wrong format and reports each press as sent, but the receiver never gets the request.
+Adding a network command by editing a file and running `apply` has not been tested. The tested way is to add it with the library and then run `export`; [CLAUDE.md](CLAUDE.md) has the steps and the reason the stored format matters. The hub accepts a command stored in the wrong format and reports each press as sent, but the receiver doesn't respond to it.
